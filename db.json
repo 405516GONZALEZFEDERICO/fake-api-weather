@@ -1,42 +1,56 @@
 {
-  "argentina": {
-    "temperature": { "ok": 150, "medium": 20, "red": 3 },
-    "pressure": { "ok": 150, "medium": 20, "red": 3 },
-    "wind": { "ok": 150, "medium": 20, "red": 3 },
-    "levels": { "ok": 150, "medium": 20, "red": 3 },
-    "energy": { "ok": 150, "medium": 20, "red": 3 },
-    "tension": { "ok": 150, "medium": 20, "red": 3 },
-    "carbon_monoxide": { "ok": 150, "medium": 20, "red": 3 },
-    "other_gases": { "ok": 150, "medium": 20, "red": 3 }
-  },
-  "uruguay": {
-    "temperature": { "ok": 150, "medium": 20, "red": 3 },
-    "pressure": { "ok": 150, "medium": 20, "red": 3 },
-    "wind": { "ok": 150, "medium": 20, "red": 3 },
-    "levels": { "ok": 150, "medium": 20, "red": 3 },
-    "energy": { "ok": 150, "medium": 20, "red": 3 },
-    "tension": { "ok": 150, "medium": 20, "red": 3 },
-    "carbon_monoxide": { "ok": 150, "medium": 20, "red": 3 },
-    "other_gases": { "ok": 150, "medium": 20, "red": 3 }
-  },
-  "brasil": {
-    "temperature": { "ok": 150, "medium": 20, "red": 3 },
-    "pressure": { "ok": 150, "medium": 20, "red": 3 },
-    "wind": { "ok": 150, "medium": 20, "red": 3 },
-    "levels": { "ok": 150, "medium": 20, "red": 3 },
-    "energy": { "ok": 150, "medium": 20, "red": 3 },
-    "tension": { "ok": 150, "medium": 20, "red": 3 },
-    "carbon_monoxide": { "ok": 150, "medium": 20, "red": 3 },
-    "other_gases": { "ok": 150, "medium": 20, "red": 3 }
-  },
-  "paraguay": {
-    "temperature": { "ok": 150, "medium": 20, "red": 3 },
-    "pressure": { "ok": 150, "medium": 20, "red": 3 },
-    "wind": { "ok": 150, "medium": 20, "red": 3 },
-    "levels": { "ok": 150, "medium": 20, "red": 3 },
-    "energy": { "ok": 150, "medium": 20, "red": 3 },
-    "tension": { "ok": 150, "medium": 20, "red": 3 },
-    "carbon_monoxide": { "ok": 150, "medium": 20, "red": 3 },
-    "other_gases": { "ok": 150, "medium": 20, "red": 3 }
-  }
+  "countries": [
+    {
+      "name": "argentina",
+      "metrics": {
+        "temperature": { "ok": 150, "medium": 20, "red": 3 },
+        "pressure": { "ok": 150, "medium": 20, "red": 3 },
+        "wind": { "ok": 150, "medium": 20, "red": 3 },
+        "levels": { "ok": 150, "medium": 20, "red": 3 },
+        "energy": { "ok": 150, "medium": 20, "red": 3 },
+        "tension": { "ok": 150, "medium": 20, "red": 3 },
+        "carbon_monoxide": { "ok": 150, "medium": 20, "red": 3 },
+        "other_gases": { "ok": 150, "medium": 20, "red": 3 }
+      }
+    },
+    {
+      "name": "uruguay",
+      "metrics": {
+        "temperature": { "ok": 150, "medium": 20, "red": 3 },
+        "pressure": { "ok": 150, "medium": 20, "red": 3 },
+        "wind": { "ok": 150, "medium": 20, "red": 3 },
+        "levels": { "ok": 150, "medium": 20, "red": 3 },
+        "energy": { "ok": 150, "medium": 20, "red": 3 },
+        "tension": { "ok": 150, "medium": 20, "red": 3 },
+        "carbon_monoxide": { "ok": 150, "medium": 20, "red": 3 },
+        "other_gases": { "ok": 150, "medium": 20, "red": 3 }
+      }
+    },
+    {
+      "name": "brasil",
+      "metrics": {
+        "temperature": { "ok": 150, "medium": 20, "red": 3 },
+        "pressure": { "ok": 150, "medium": 20, "red": 3 },
+        "wind": { "ok": 150, "medium": 20, "red": 3 },
+        "levels": { "ok": 150, "medium": 20, "red": 3 },
+        "energy": { "ok": 150, "medium": 20, "red": 3 },
+        "tension": { "ok": 150, "medium": 20, "red": 3 },
+        "carbon_monoxide": { "ok": 150, "medium": 20, "red": 3 },
+        "other_gases": { "ok": 150, "medium": 20, "red": 3 }
+      }
+    },
+    {
+      "name": "paraguay",
+      "metrics": {
+        "temperature": { "ok": 150, "medium": 20, "red": 3 },
+        "pressure": { "ok": 150, "medium": 20, "red": 3 },
+        "wind": { "ok": 150, "medium": 20, "red": 3 },
+        "levels": { "ok": 150, "medium": 20, "red": 3 },
+        "energy": { "ok": 150, "medium": 20, "red": 3 },
+        "tension": { "ok": 150, "medium": 20, "red": 3 },
+        "carbon_monoxide": { "ok": 150, "medium": 20, "red": 3 },
+        "other_gases": { "ok": 150, "medium": 20, "red": 3 }
+      }
+    }
+  ]
 }
